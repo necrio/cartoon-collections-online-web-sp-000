@@ -6,6 +6,9 @@ def roll_call_dwarves(names)
       i += 1
     end
     names
+  else 
+    puts "something"
+  end
 
 
 
