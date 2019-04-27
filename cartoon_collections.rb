@@ -17,7 +17,7 @@ def summon_captain_planet(sum)
     i += 1
   end
   sum_array
-  
+
 end
 
 def long_planeteer_calls# code an argument here
