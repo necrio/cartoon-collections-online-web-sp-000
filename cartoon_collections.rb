@@ -1,14 +1,14 @@
-def roll_call_dwarves(names)
+def roll_call_dwarves(dwarves)
   if block_given?
     i = 0
     name = []
-    while i < names.length
-      name << yield(names[i])
+    while i < dwarves.length
+      name << yield(dwarves[i])
       i += 1
     end
-    names
+    dwarves
   else
-    puts "#{names}"
+    puts "#{dwarves}"
   end
 
 
