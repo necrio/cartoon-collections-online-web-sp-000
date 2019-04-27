@@ -11,13 +11,13 @@ end
 def summon_captain_planet(sum)
 
   sum_array = []
-  i = 0 
+  i = 0
   while i < sum.length
     sum_array << array[i].capitalize + "!"
     i += 1
   end
   sum_array
-  
+
 
 
 
