@@ -1,5 +1,5 @@
 def roll_call_dwarves(names)
-
+  if block_given?
     i = 0
     while i < names.length
       yield(names[i])
