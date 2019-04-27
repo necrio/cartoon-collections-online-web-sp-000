@@ -7,7 +7,7 @@ def roll_call_dwarves(names)
     end
     names
   else
-    puts "something"
+    puts "#{names}"
   end
 
 
