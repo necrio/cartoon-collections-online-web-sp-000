@@ -33,10 +33,6 @@ def long_planeteer_calls(calls_long)
     i += 1
   end
 
-
-
-
-
 end
 
 def find_the_cheese# code an argument here
